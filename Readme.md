@@ -18,11 +18,10 @@ To use the program, follow these steps:
 3. Restore any NuGet packages required by the project. You can do this by right-clicking on the project in Visual Studio's Solution Explorer and selecting "Restore NuGet Packages".
 4. Build the project by selecting "Build" -> "Build Solution" in Visual Studio's menu.
 5. Run the program by selecting "Debug" -> "Start Debugging" or pressing F5 in Visual Studio. Alternatively, you can locate the compiled executable file (usually found in the "bin" folder of the project) and run it directly.
-6. Follow the prompts or user interface provided by the program to input any required data or parameters.
-7. Once the program completes its execution, it will display the results or perform any desired actions based on its functionality.
+6. Follow the intructions showed in the user interface provided by swagger so you can display the desire data.
 
 ## Dependencies
-The C# .NET Entity Framework program may have dependencies specific to its requirements. These dependencies should be specified in the project's configuration files or documentation. Make sure you have the necessary dependencies installed before running the program.
+The C# .NET Entity Framework program may have dependencies specific to its requirements. These dependencies are specified in the appsettings.json. Make sure you have the necessary dependencies installed before running the program.
 
 ## Algorithm Overview
 The Breadth-First Search (BFS) algorithm is applied to solve the Water Jug Problem. BFS is a search technique used to explore all possible states in a graph or tree. In this context, each state represents a combination of the water levels in both jugs.
