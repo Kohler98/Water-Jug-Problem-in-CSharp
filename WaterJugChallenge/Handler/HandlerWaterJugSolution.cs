@@ -73,7 +73,7 @@ namespace WaterJugChallenge.handler
                         }
 
                     }
-                    return solution;
+                    break;
                 }
                 // Filling the 2nd jug completely
                if (!nodeMap.ContainsKey(new Tuple<int, int>(u.Item1, y)))
