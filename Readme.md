@@ -40,14 +40,6 @@ The Breadth-First Search (BFS) algorithm is applied to solve the Water Jug Probl
 ## Benefits of BFS
 The BFS algorithm guarantees finding the shortest possible solution as it explores all possible states in a level-by-level order. This means that it will first explore all states reachable from the initial state, then states reachable from those states, and so on.
 
-## Usage
-To use this algorithm for solving the Water Jug Problem, follow these steps:
-1. Define the capacities of the two jugs and the desired amount of water.
-2. Implement the BFS algorithm described above, considering the necessary operations to generate all possible states.
-3. Run the algorithm with the initial state (both jugs empty) and check if a solution is found.
-4. If a solution is found, retrieve the sequence of steps from the initial state to the goal state.
-5. Optionally, optimize the algorithm by using data structures to store visited states and avoid redundant exploration.
-
 ## Conclusion
 The BFS algorithm is a suitable choice for solving the Water Jug Problem as it guarantees finding the shortest solution and systematically explores all possible states. By following the steps outlined above, you can efficiently solve this problem and find the shortest sequence of steps to measure a desired amount of water using two jugs.
 
